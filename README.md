@@ -104,12 +104,16 @@ print(conv.UsdToEuro(1000))
 ```
 There are other more functions to perfrom basic tasks using Doless python library you can explore it.
 
+## PyPI
+[DoLess module](https://pypi.org/project/DoLess/0.1.1/)
+
 ## License
 `DoLess` is released under the [MIT License](https://github.com/CoderRony955/DoLess/blob/master/LICENSE). See the LICENSE file for more details.
 
 
 ## Author
 **DoLess** is developed and maintained by [Raunak sharma](https://github.com/CoderRony955).
+
 
 
 ## Closing
