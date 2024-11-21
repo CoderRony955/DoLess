@@ -14,7 +14,7 @@ The library is designed to be easy to use and provides a simple functions and cl
 You can install `DoLess` directly from PyPI using `pip`. Run the following command in your terminal or command prompt:
 
 ```bash
-pip install DoLess
+pip install DoLess==0.1.0
 ```
 ## Usage
 
