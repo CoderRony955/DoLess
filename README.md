@@ -14,7 +14,7 @@ The library is designed to be easy to use and provides a simple functions and cl
 You can install `DoLess` directly from PyPI using `pip`. Run the following command in your terminal or command prompt:
 
 ```bash
-pip install DoLess==0.1.0
+pip install DoLess==0.1.1
 ```
 ## Usage
 
@@ -23,7 +23,7 @@ This function bascially prints the whole string with a delay of user given delay
 
 e.g
 ```python
-from DoLess import chareach
+from doless import chareach
 print(chareach("Hello World!", 0.1)) 
 ```
 prints the whole string with a delay of 0.1 seconds between each character
@@ -33,7 +33,7 @@ This function runs a shell command in the terminal and returns the output of the
 
 e.g
 ```python
-from DoLess import cmdrun
+from doless import cmdrun
 print(cmdrun("ls"))
 ```
 prints the list of files and directories in the current directory.
@@ -48,7 +48,7 @@ This class provides methods to perform file operations such as creating, reading
 
 e.g
 ```python
-from DoLess import fileop
+from doless import fileop
 op = fileop("example.txt") #file name
 op.mkfile("example.txt") #for making file and writing file this methods take one argument which is file content or text
 op.readfile()
@@ -64,7 +64,7 @@ This class provides methods to perform directory operations such as creating and
 
 e.g
 ```python
-from DoLess import dirop
+from doless import dirop
 op = dirop("exampledir")
 op.makdir() #make directory
 op.deldir() #delete directory
@@ -96,7 +96,7 @@ This class provides methods to perform currency amount calculations based on dif
 
 e.g
 ```python
-from DoLess import currencyconv
+from doless import currencyconv
 conv = currencyconv(1000)
 print(conv.UsdToInr(1000))
 print(conv.InrToUsd(1000))
